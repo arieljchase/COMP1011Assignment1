@@ -1,0 +1,40 @@
+.root {
+    -fx-background-color: #968151;
+    -fx-font-family: "Helvetica";
+}
+
+.button {
+    -fx-background-color: #2f8026;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-family: "Helvetica";
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #2f8026;
+    -fx-border-width: 1px;
+}
+
+.chart-bar {
+    -fx-bar-fill: #2d7d1f; /* Default bar color */
+}
+
+/* Specific styles for each game */
+.series0.data0.chart-bar {
+    -fx-bar-fill: #83ccb1; /* The Sims 1 */
+}
+
+.series0.data1.chart-bar {
+    -fx-bar-fill: #ded18a; /* The Sims 2 */
+}
+
+.series0.data2.chart-bar {
+    -fx-bar-fill: #64a856; /* The Sims 3 */
+}
+
+.series0.data3.chart-bar {
+    -fx-bar-fill: #44aafc; /* The Sims 4 */
+}
